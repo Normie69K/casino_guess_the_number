@@ -11,6 +11,26 @@ int main() {
     srand(static_cast<unsigned int>(time(0))); // Seed the random number generator
 
     cout << "Welcome to Lootnewale Casino" << endl;
+    sleep(3);
+    cout << R"(
+       *     *    *     *
+   *     *   *     *   *     *
+ *   🎲   *  *   🎰   *   *  💰   *
+   *     *   *     *   *     *
+       *     *    *     *
+
+  /$$$$$$  /$$                                         /$$          
+ /$$__  $$| $$                                        | $$          
+| $$  \__/| $$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$| $$$$$$$       
+| $$      | $$__  $$ |____  $$ /$$__  $$|  $$ | $$| $$__  $$      
+| $$      | $$  \ $$  /$$$$$$$| $$  \ $$|  $$ | $$| $$  \ $$      
+| $$    $$| $$  | $$ /$$__  $$| $$  | $$|  $$ | $$| $$  | $$      
+|  $$$$$$/| $$$$$$$/|  $$$$$$$| $$$$$$$/|  $$$$$$/| $$$$$$$/      
+ \______/ |_______/  \_______/ | $$____/  \______/ |_______/       
+                                     | $$                           
+                                     | $$                           
+                                     |__/                           
+    )" <<endl;
     sleep(5);
     cout << "We are going to play a game" << endl << "Guess the number" << endl;
     cout << "Here are the rules..." << endl;
